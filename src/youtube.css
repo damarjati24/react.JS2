@@ -1,0 +1,46 @@
+.main-video {
+    width: 70%;
+}
+
+.iframe-video {
+    width: 140%;
+    height: 420px;
+    border: none;
+}
+   
+.video-list {
+    width: 50%;
+    flex-direction: column;
+}
+  
+.video-card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 8px 0;
+}
+  
+.video-thumbnail {
+    width: 50%;
+    height: 65%;
+    margin-right: 10px;
+}
+  
+.video-info {
+    flex: 1;
+}
+  
+.video-title-main {
+    margin: 0;
+    font-size: 20px;
+}
+  
+.video-description-main {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.video-title-card {
+    margin: 0;
+    font-size: 15px;
+}
